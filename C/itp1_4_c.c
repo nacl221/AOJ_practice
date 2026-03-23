@@ -1,0 +1,22 @@
+int main(){
+    int a, b, i, r;
+    char op;
+    while(1){
+        scanf("%d %c %d", &a, &op, &b);
+        if (op == '?') break;
+        if(op == '+'){
+            r = a + b;
+        }
+        if(op == '-'){
+            r = a - b;
+        }
+        if(op == '*'){
+            r = a * b;
+        }
+        if(op == '/'){
+            r = a / b;
+        }
+        printf("%d\n", r);
+    }
+    return 0;
+}
